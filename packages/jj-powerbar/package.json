@@ -1,0 +1,24 @@
+{
+  "name": "@adix7/jj-powerbar",
+  "version": "0.1.0",
+  "description": "Show Jujutsu change and bookmark or Git branch in Pi and Powerbar.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "files": [
+    "jj-powerbar.ts"
+  ],
+  "pi": {
+    "extensions": [
+      "./jj-powerbar.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

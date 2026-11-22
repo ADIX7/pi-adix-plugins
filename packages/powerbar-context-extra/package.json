@@ -1,0 +1,24 @@
+{
+  "name": "@adix7/powerbar-context-extra",
+  "version": "0.1.0",
+  "description": "Show context usage as a Powerbar segment in Pi.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "files": [
+    "powerbar-context-extra.ts"
+  ],
+  "pi": {
+    "extensions": [
+      "./powerbar-context-extra.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
